@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:elevation="2dp"
+    android:backgroundTint="#000"
+    app:cardCornerRadius="5dp"
+   >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+      android:layout_weight="1"
+       android:layout_height="0dp">
+    <TextView
+        android:layout_width="wrap_content"
+
+        android:layout_height="match_parent"
+        android:text="A  stunning  "
+        android:textColor="#FFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:id="@+id/tvPointer"
+        android:textColor="#FFF"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_width="wrap_content"
+
+        android:text="  pointer by "
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:layout_height="match_parent" />
+   </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:textColor="#FFF"
+        android:text="- "
+        android:gravity="right"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:textSize="20dp"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="match_parent"
+        android:text="Himanashu"
+        android:gravity="top"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:textColor="#FFF"
+        android:id="@+id/tvline"/>
+
+</LinearLayout>
+</LinearLayout>
+
+
+</android.support.v7.widget.CardView>

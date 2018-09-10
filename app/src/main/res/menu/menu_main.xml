@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ankit.basketballscorecard.activities.MainActivity">
+    <item android:id="@+id/TeamName"
+        app:showAsAction="always"
+        android:title="TeamName"
+        android:icon="@drawable/ic_text_fields"/>
+    <item
+        android:id="@+id/Delete"
+        android:orderInCategory="100"
+        android:title="@string/action_Delete"
+        app:showAsAction="never" />
+    <item android:title="Reset Score"
+    android:orderInCategory="100"
+    app:showAsAction="never"
+    android:id="@+id/Reset"/>
+    <item android:title="Change Theme"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:id="@+id/ChngTheme"/>
+</menu>

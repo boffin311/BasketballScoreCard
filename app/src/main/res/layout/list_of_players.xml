@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_height="wrap_content">
+   <FrameLayout
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       android:layout_marginLeft="10dp"
+       >
+       <de.hdodenhof.circleimageview.CircleImageView
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:id="@+id/imagePlayer"
+           android:layout_gravity="center"
+           android:src="@drawable/ic_launcher_background"
+           />
+   </FrameLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    android:id="@+id/card"
+    android:layout_marginLeft="20dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:padding="5dp"
+        android:id="@+id/tvName"
+        android:textColor="#000"
+        android:text="Varun"
+
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-medium"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:textSize="20dp"
+            android:text="0"
+            android:textColor="#918b8b"
+            android:id="@+id/tvSum"
+            android:gravity="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:textSize="20dp"
+            android:text="0"
+            android:textColor="#918b8b"
+            android:id="@+id/tvFoul"
+            android:gravity="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:padding="5dp"
+            android:textColor="#000"
+
+            android:textSize="25dp"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:layout_width="35dp"
+            android:layout_gravity="center"
+            android:id="@+id/imageOne"
+            android:background="@drawable/ic_looks_one"
+
+            android:layout_height="35dp" />
+        <ImageButton
+            android:layout_width="35dp"
+            android:id="@+id/imageTwo"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_looks_two"
+            android:layout_height="35dp" />
+        <ImageButton
+            android:layout_width="35dp"
+            android:background="@drawable/ic_looks_3"
+            android:id="@+id/imageThree"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_height="35dp" />
+        <ImageButton
+           android:layout_width="35dp"
+            android:id="@+id/imageFoul"
+            android:background="@drawable/ic_do_not_disturb"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+           android:layout_height="35dp" />
+         </LinearLayout>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="1px"
+    android:background="#a49f9f"/>
+</LinearLayout>
+</LinearLayout>
